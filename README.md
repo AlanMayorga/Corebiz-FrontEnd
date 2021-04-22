@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Corebiz-Fron-End
+Proyecto creado a partir del curso impartido por parte de Corebiz, el proyecto esta creada con react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instrucciones para compilar, ejecutar, el proyecto.
 
-## Available Scripts
+## Compilación y ejecución del proyecto.
 
-In the project directory, you can run:
+Para compilar el proyecto, primero se deben instalar los módulos, para esto debe posicionarse en la terminal en el directorio donde se encuentra almacenado el proyecto, e ingresar el comando **`npm install`**.
 
-### `npm start`
+Una vez ingresado el comando se procederán a instalar todos los módulos. Después de que se hayan instalado los módulos podremos ejecutar el proyecto, para compilar y ejecutar el proyecto debemos de ingresar el comando **`npm run start`** o **`npm start`**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Captura de pantalla (8)](https://user-images.githubusercontent.com/66398974/115651846-a42a8480-a2f1-11eb-91a7-12c36d19b556.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Se abrirá una pestaña en tu navegador corriendo el proyecto.
 
-### `npm test`
+## Probar el proyecto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para agregar un ítem al carrito se debe presionar en el botón **"Comprar"**, una vez hecho esto se aumentará el contador del icono de carrito de compra.
 
-### `npm run build`
+> 1. Carrito en 0.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![cart-0](https://user-images.githubusercontent.com/66398974/115655111-2e75e700-a2f8-11eb-8f5b-7d4866234b38.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> 2. Presionar en el botón **Comprar**.
+ 
+![comprar](https://user-images.githubusercontent.com/66398974/115655305-a5ab7b00-a2f8-11eb-9774-a09236557c56.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> 3. Carrito en 1.
+ 
+![cart-1](https://user-images.githubusercontent.com/66398974/115655338-bbb93b80-a2f8-11eb-84e5-8facbf44fce8.png)
 
-### `npm run eject`
+Para enviar su información de contacto, debe ingresar su nombre y correo en el formulario correspondiente y dar clic en el botón "Suscribirme".
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> 1. Ingresar datos.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![form](https://user-images.githubusercontent.com/66398974/115655588-32563900-a2f9-11eb-8799-d82f0b3c38d3.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> 2. Clic en el botón "Suscribirme". Al dar clic se mostrará un mensaje de confirmación.
+ 
+![form-send](https://user-images.githubusercontent.com/66398974/115655634-50bc3480-a2f9-11eb-8cf7-423ae4f1ef3b.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Cabe mencionar que la aplicación web es responsiva.
 
-## Learn More
+Y bueno esto es todo, es lo que pude hacer en 3 días, espero les guste gracias!!!. :heart:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
