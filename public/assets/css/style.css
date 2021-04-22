@@ -1,0 +1,60 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 451px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .splide .splide__arrows {
+    display: none;
+  }
+  main .splide {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .splide .splide__arrows {
+    display: block;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+ul .splide__pagination__page.is-active {
+  background: #F8475F;
+}
+
+ul .splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.splide .splide__pagination {
+  bottom: -10px;
+}
+
+.splide .splide__arrows .splide__arrow > svg {
+  fill: #000000;
+}
+
+main .splide {
+  padding: 0px 3rem;
+}
